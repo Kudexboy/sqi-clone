@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header{
+   top: 0;
+    background-color: #fff;
+    width: 100%;
+    height:60px;
+    position: fixed;
+}
+header img {
+    width: 60px; 
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    WIDTH: 80%;
+    mini-height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #203594;
+    margin: 0 15px;
+    font-size: 14px;
+    font-family: Poppins (ttf),Helvetica,Arial,Lucida,sans-serif;
+    font-weight: bolder;
+}
+.hero-section{
+    width: 100%;
+    mini-height: 50dvh;
+    background-color: #FFFEF9;
+}
+.hero-box{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    WIDTH: 80%;
+}
+.hero-box h1{
+    font-size: 64px;
+    color:#000E42;
+    font-style: normal;
+    font-weight: 700;
+}
+.hero-box p{
+    font-size: 16px;
+    font-style: normal;
+    color:#474747;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+}
+.hero-box button{
+    background-color: #050754;
+    padding: 18px 40px;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    border:none;
+}
+.inner-box{
+    width: 50%;
+    }
+    .se{
+        width: 80%;
+        margin: auto;
+        color: #050754;
+        font-size: 42px;
+        font-style: normal;
+    }
+    .sec2{
+        width: 100%;
+        height: 50dvh;
+    }
+    .sec2-child{
+        display: flex;
+        width: 80%;
+        margin: 50px auto;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .sec2 img{
+        width: 300px;
+        height: 300px;
+        filter: grayscale();
+    }
+    .inner-child h3{
+        color:#000E54;
+        font-size: 20px;
+        font-style: normal;
+        padding-top: 15px;
+        padding-bottom: 15px;
+     
+
+    }
+    .inner-child p{
+        color:RGB(102, 102, 102);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .inner-child a{
+        color: #474747;
+        text-decoration:underline;
+    }
+
+  
+
