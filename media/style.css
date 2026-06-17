@@ -16,6 +16,7 @@ header {
     width: 100%;
     height: 60px;
     position: fixed;
+    z-index: 2;
 }
 
 header img {
@@ -40,6 +41,11 @@ nav a {
     font-weight: bolder;
 }
 
+.fa-angle-down {
+    margin-left: 3px;
+    font-size: 10px;
+}
+
 .hero-section {
     width: 100%;
     mini-height: 50dvh;
@@ -50,7 +56,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px auto;
+    margin: 50px auto;
     WIDTH: 80%;
 }
 
@@ -95,6 +101,7 @@ nav a {
 .sec2 {
     width: 100%;
     min-height: 50dvh;
+    z-index: 0;
 }
 
 .sec2-child {
@@ -196,8 +203,6 @@ nav a {
     min-height: 20dvh;
     width: 100%;
     border-radius: 15px;
-    /* padding: 50px; */
-    /* overflow: hidden; */
     margin-bottom: 40px;
 
 }
@@ -220,7 +225,6 @@ nav a {
     background-color: #D5EAF3;
     min-height: 30dvh;
     width: 100%;
-    /* border: 1px solid red; */
     border-radius: 15px;
     padding: 50px;
     box-shadow: 0px 30px 20px 20px #D7ECDB;
@@ -240,7 +244,6 @@ nav a {
     background-color: #E0D5C0;
     min-height: 30dvh;
     width: 100%;
-    /* border: 1px solid red; */
     border-radius: 15px;
     padding: 50px;
     box-shadow: 0px 30px 20px 20px #D7ECDB;
@@ -293,7 +296,449 @@ nav a {
 
 .se2 {
     width: 80%;
-    margin: 150px auto;
+    margin: 100px auto;
     font-size: 15px;
+    font-style: normal;
+}
+
+.sec4 {
+    width: 100%;
+    height: 80dvh;
+}
+
+.container {
+    width: 80%;
+    height: 70dvh;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 10px;
+}
+.container img {
+    width: 150px;
+}
+.youtube {
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(15, 28, 77, 0.7), rgba(8, 21, 64, 0.7)), url(./DSC_9054-scaled.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70dvh;
+}
+.frame {
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+}
+.inner-youtube {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    gap: 5%;
+    color: white;
+}
+.youtube-child {
+    width: 50%;
+}
+.youtube-child2 {
+    width: 70%;
+}
+.youtube-child2 h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+.youtube-child2 p {
+    font-size: 16px;
+    font-weight: 550;
+    font-style: normal;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    gap: 10px;
+}
+.youtube-child2 button {
+    background-color: #00208A;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+}
+.youtube-child a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.test {
+    width: 80%;
+    margin: 50px auto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.test h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.testimonial-wrapper {
+    width: 100%;
+    min-height: 20dvh;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.testimonial-track {
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    width: 75%;
+    margin: 30px auto;
+    gap: 5px;
+    padding-top: 20px;
+    transition: transform 0.4s ease;
+    /* background-color: whitesmoke; */
+
+}
+
+.testimonial-track p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.testimonial-track img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial-card {
+    flex: 0 0 50.433%;
+    padding: 20px;
+}
+
+.child1 button {
+    background-color: #3c71f6;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.child2 {
+    display: flex;
+    width: 80%;
+    margin: AUTO;
+    /* flex: 0 0 33.333%; */
+    padding: 20px;
+
+}
+
+.child2 img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.child1 {
+    text-align: center;
+    margin-top: 70px;
+    width: 20%;
+
+}
+
+.icon {
+    color: #a87510;
+    padding-top: 5px;
+}
+
+.testimonial-card p {
+    margin-top: 10px;
+}
+.studies{
+    width: 100px;
+    min-height: 100dvh;
+}
+.studies-parent{
+    display: flex;
+    width: 80%;
+    margin:50px auto;
+    /* border: 1px solid; */
+    gap: 12%;
+}
+.studies-parent img{
+    width: 320px;
+    height: 1100px;
+    background-position: center;
+    background-size: cover;
+}
+.studies-parent div{
+    width: 130%;
+    padding-bottom: 40px;
+    color:#666666;
+}
+.studies-parent h3{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.studies-parent h1{
+    padding-bottom: 40px;
+}
+.icons{
+    font-size: 30px;
+}
+.sss{
+    padding-top: 120px;
+}
+
+
+.faq {
+    width: 100%;
+    height: 110dvh;
+    background-color: #090326;
+}
+
+.faq-inner {
+    display: flex;
+    width: 80%;
+    margin: 70px auto;
+    justify-content: space-around;
+    color: whitesmoke;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.faq-child {
+    width: 110%;
+    padding-top: 0;
+}
+
+.faq-child2 {
+    width: 120%;
+
+}
+
+.faq-inner h3 {
+    color: #AB8304;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+a,
+hr {
+    color: #AB8304;
+    font-size: 20px;
+}
+
+.faq-inner h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.faq-inner p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.campus {
+    width: 100%;
+    height: 80dvh;
+    background-color: #000B3F;
+}
+
+.campus-inner {
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    color: whitesmoke;
+}
+
+.campus-inner p {
+    font-size: 1 rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.campus-inner h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.campus-inner h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.campus-inner button {
+    background-color: #00208A;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    padding: 20px 25px;
+    border-radius: 30px;
+    border: none;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.news {
+    width: 100%;
+    height: 30dvh;
+    background-color: #F0F1FF;
+}
+
+.news-c {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.news-c h1 {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.news-c button {
+    background-color: #00208A;
+    color: whitesmoke;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+    border: none;
+    border-radius: 30px;
+}
+
+.college {
+    width: 100%;
+    background-color: #F0F1FF;
+    min-height: 100dvh;
+}
+
+.college-track {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 5%;
+}
+
+.college-track span {
+    color: #FBCCCE;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.college-track p {
+    color: #666666;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.college-track h3,
+span {
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.college-track img {
+    width: 310px;
+}
+
+.college-child {
+    background-color: #FFFFFF;
+
+}
+
+.address {
+    width: 100%;
+    min-height: 100dvh;
+}
+
+.address-track {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    gap: 5%;
+}
+
+.address-track a {
+    font-size: 14px;
+    color: #64B2F3;
+    text-decoration: none;
+
+}
+
+.address-inner a,
+h5,
+h3,
+h4 {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 00;
+    font-style: normal;
+}
+
+.address-inner p {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 00;
+    font-style: normal;
+}
+
+.address-inner h2 {
+    color: #514E95;
+}
+.p-tag{
+    padding-bottom:100px ;
+}
+
+.fot {
+    width: 100%;
+    background-color: #050044;
+    color: white;
+}
+
+.fott {
+    width: 80%;
+    margin: auto;
+    min-height: 10dvh;
+}
+
+.fott p {
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 500;
     font-style: normal;
 }
