@@ -691,6 +691,7 @@ span {
     width: 80%;
     margin: 50px auto;
     gap: 5%;
+      line-height: 2;
 }
 
 .address-track a {
@@ -709,12 +710,16 @@ h4 {
     font-weight: 00;
     font-style: normal;
 }
+.address-inner{
+    line-height: 2;
+}
 
 .address-inner p {
     padding-top: 20px;
     font-size: 14px;
     font-weight: 00;
     font-style: normal;
+      line-height: 2;
 }
 
 .address-inner h2 {
