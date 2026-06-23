@@ -46,6 +46,11 @@ nav a {
     font-size: 10px;
 }
 
+.fa-bars {
+    font-size: 1.5rem;
+    display: none;
+}
+
 .hero-section {
     width: 100%;
     mini-height: 50dvh;
@@ -89,6 +94,11 @@ nav a {
 .inner-box {
     width: 50%;
 }
+.hero-box img{
+    width: 100%;
+}
+
+
 
 .se {
     width: 80%;
@@ -185,14 +195,12 @@ nav a {
 
 .parent-box {
     width: 100%;
-    /* border: 1px solid red; */
     min-height: 70dvh;
 }
 
 .child-box {
     display: flex;
     width: 80%;
-    /* border: 1px solid red; */
     margin: auto;
     gap: 6%;
 
@@ -224,7 +232,7 @@ nav a {
 .box2 {
     background-color: #D5EAF3;
     min-height: 30dvh;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 15px;
     padding: 50px;
     box-shadow: 0px 30px 20px 20px #D7ECDB;
@@ -316,9 +324,11 @@ nav a {
     gap: 25px;
     padding: 10px;
 }
+
 .container img {
     width: 150px;
 }
+
 .youtube {
     width: 100%;
     background-image: linear-gradient(to right, rgba(15, 28, 77, 0.7), rgba(8, 21, 64, 0.7)), url(./DSC_9054-scaled.jpg);
@@ -326,31 +336,38 @@ nav a {
     background-size: cover;
     height: 70dvh;
 }
+
 .frame {
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: 220px;
     border-radius: 30px;
 }
+
 .inner-youtube {
     display: flex;
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 70px;
     gap: 5%;
     color: white;
 }
+
 .youtube-child {
-    width: 50%;
+    width: 45%;
+    /* border: 1px solid red; */
 }
+
 .youtube-child2 {
     width: 70%;
 }
+
 .youtube-child2 h1 {
     font-size: 48px;
     font-weight: 700;
     font-style: normal;
     padding-bottom: 20px;
 }
+
 .youtube-child2 p {
     font-size: 16px;
     font-weight: 550;
@@ -359,6 +376,7 @@ nav a {
     padding-top: 10px;
     gap: 10px;
 }
+
 .youtube-child2 button {
     background-color: #00208A;
     padding: 15px 20px;
@@ -369,6 +387,7 @@ nav a {
     font-weight: 500;
     font-style: normal;
 }
+
 .youtube-child a {
     display: flex;
     justify-content: center;
@@ -470,46 +489,59 @@ nav a {
 .testimonial-card p {
     margin-top: 10px;
 }
-.studies{
+
+.studies {
     width: 100px;
     min-height: 100dvh;
 }
-.studies-parent{
+
+.studies-parent {
     display: flex;
     width: 80%;
-    margin:50px auto;
+    margin: 50px auto;
     /* border: 1px solid; */
     gap: 12%;
 }
-.studies-parent img{
+
+/* .studies-parent img{
     width: 320px;
     height: 1100px;
     background-position: center;
-    background-size: cover;
-}
-.studies-parent div{
+  
+} */
+.studies-parent div {
     width: 130%;
     padding-bottom: 40px;
-    color:#666666;
+    color: #666666;
 }
-.studies-parent h3{
+
+.studies-parent h3 {
     padding-bottom: 10px;
     font-size: 20px;
 }
-.studies-parent h1{
+
+.studies-parent h1 {
     padding-bottom: 40px;
 }
-.icons{
+
+.icons {
     font-size: 30px;
 }
-.sss{
+
+.sss {
     padding-top: 120px;
 }
 
+.image {
+    background-image: url(https://edu.sqi.ng/wp-content/uploads/2023/01/conference_image_15.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
 
 .faq {
     width: 100%;
-    height: 110dvh;
+    height: 100dvh;
     background-color: #090326;
 }
 
@@ -678,6 +710,8 @@ span {
 
 .college-child {
     background-color: #FFFFFF;
+    
+
 
 }
 
@@ -691,7 +725,7 @@ span {
     width: 80%;
     margin: 50px auto;
     gap: 5%;
-      line-height: 2;
+    line-height: 2;
 }
 
 .address-track a {
@@ -710,7 +744,8 @@ h4 {
     font-weight: 00;
     font-style: normal;
 }
-.address-inner{
+
+.address-inner {
     line-height: 2;
 }
 
@@ -719,14 +754,15 @@ h4 {
     font-size: 14px;
     font-weight: 00;
     font-style: normal;
-      line-height: 2;
+    line-height: 2;
 }
 
 .address-inner h2 {
     color: #514E95;
 }
-.p-tag{
-    padding-bottom:100px ;
+
+.p-tag {
+    padding-bottom: 100px;
 }
 
 .fot {
@@ -746,4 +782,220 @@ h4 {
     padding-top: 15px;
     font-weight: 500;
     font-style: normal;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .nav-link {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+    }
+
+    .hero-box {
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .inner-box {
+        width: 100%;
+    }
+
+    .inner-box h1 {
+        font-size: 50px;
+    }
+
+    .sec2-child {
+        flex-direction: column;
+    }
+
+    .sec2 img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .sec3-child {
+        flex-direction: column;
+    }
+
+    .sec3-inner {
+        width: 100%;
+    }
+
+    .child-box {
+        flex-direction: column;
+    }
+
+    .child-box img {
+        width: 100%;
+    }
+
+    .inner-youtube {
+        flex-direction: column;
+    }
+
+    .youtube-child {
+        width: 100%;
+    }
+
+    .frame {
+        height: 250px;
+        padding-bottom: 15px;
+    }
+
+    .youtube-child2 {
+        width: 100%;
+    }
+
+    .child2 {
+        width: 100%;
+    }
+
+    .child1 {
+        width: 100%;
+    }
+
+    .testimonial-card {
+        flex: 0 0 100%;
+    }
+
+    .studies-parent {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .studies-parent div {
+        width: 100%;
+    }
+
+    .studies-parent h1 {
+        padding-bottom: 20px;
+    }
+
+    .sss {
+        padding-top: 10px;
+    }
+
+    .image {
+        height: 350px;
+
+    }
+
+    .faq-inner {
+        flex-direction: column;
+    }
+
+    .faq-child,
+    .faq-child2 {
+        width: 100%;
+    }
+
+    .faq {
+        height: 85dvh;
+    }
+
+    .campus {
+        height: 60dvh;
+    }
+
+    .college-track {
+        flex-wrap: wrap;
+    }
+
+    .college-track img {
+        width: 100%;
+    }
+    .college-track > div{
+        line-height: 2.2;
+       margin-bottom: 10%;
+    }
+
+
+    .college-child p {
+        font-size: 18px;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .address-track {
+        flex-wrap: wrap;
+    }
+
+
+}
+@media screen and (max-width:430px) {
+    .hero-box h1{
+        font-size: 35px;
+    }
+    .hero-box img{
+    width: 100%;
+}
+.se{
+    font-size: 38px;
+}
+.sec2 img {
+    height: 300px;    
+}
+.box1 h1{
+    font-size: 2rem;
+}
+.child-box h1 {
+    font-size: 22px;
+   
+    }
+    .container{
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(6,1fr);
+        width: 100%;
+        padding: 15px;
+        gap: 30px;
+    }
+    .youtube{
+        height: 110dvh;
+    }
+    .youtube-child {
+        width: 100%;
+    }
+
+    .frame {
+        height: 300px;
+        /* padding-bottom: 15px; */
+
+    }
+
+    .youtube-child2 {
+        width: 100%;
+    }
+    .child2{
+        flex-direction: column;
+    }
+    .image {
+        height: 200px;
+
+    }
+    .faq {
+        height: 125dvh;
+    }
+    .campus {
+        height: 90dvh;
+    }
+    .campus-inner{
+        width: 80%;
+    }
+    .campus-inner h1{
+        font-size: 45px;
+    }
+    .news-c{
+        flex-direction: column;
+    }
+    .news-c button{
+      margin-left: 190px;
+      margin-top: 40px;
+    }
+
+
+
 }
